@@ -25,6 +25,6 @@
 #' mean(post2)
 #' quantile(post2, probs = c(0.05, 0.95))
 model_bernoulli_beta = function(alpha, beta, success, n_sample, n_post = 1e5) {
-  rbeta(n_post, alpha + 1 + success, beta + 1 + n_sample - success)
+  rbeta(n_post, alpha + success, beta + n_sample - success)
 }
 
