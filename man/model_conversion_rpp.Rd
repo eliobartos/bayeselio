@@ -49,3 +49,6 @@ revenue per user (rpu).
 
 Check model_bernoulli_beta and model_exponential_gamma for details regarding each model.
 }
+\author{
+Elio Bartoš
+}

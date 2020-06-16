@@ -37,3 +37,6 @@ quantile(post, probs = c(0.05, 0.95)) # 90\% highest density posterior interval
 mean(post2)
 quantile(post2, probs = c(0.05, 0.95))
 }
+\author{
+Elio Bartoš
+}
