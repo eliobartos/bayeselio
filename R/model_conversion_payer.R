@@ -25,6 +25,8 @@
 #'  post_rpp representing value of variable (money) per successful case from exponential-gamma model, post_rpu representing value
 #'  of variable per each case (money per all cases), post_rpu = post_conv * post_rpp
 #' 
+#' @author Elio Bartoš
+#' 
 #' @example 
 #' # If we had 20 users out of which 5 spent in total of 10$.
 #' # If beta prior we input success rate of 1/10, on a sample size of 8 observations

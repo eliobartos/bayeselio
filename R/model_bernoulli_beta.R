@@ -14,7 +14,9 @@
 #' @return Vector of samples from posterior distribution
 #'
 #' Posterior distribution is Beta(alpha + 1 + success, beta + 1 + total - success)
-#'
+#' 
+#' @author Elio Bartoš
+#' 
 #' @examples
 #' post = model_bernoulli_beta(0, 0, 20, 100) # No prior information, pror is uniform
 #' post2 = model_bernoulli_beta(5, 95, 3, 50) # Prior succes rate is around 5% with estimation strenght as it was estimated on a sample of 100
