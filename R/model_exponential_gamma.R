@@ -10,7 +10,7 @@
 #' @param rate Parameter for prior distribution representing the sum of samples from before
 #'
 #' @param n_sample Total number of cases in your data
-#' @param sum_sample Number of success cases in your data
+#' @param sum_sample Sum of variable for each successful case.
 #' @param n_post Size of sample from posterior distribution
 #'
 #' @return Vector of samples from posterior distribution representing mean of exponential distribution (1/lambda).

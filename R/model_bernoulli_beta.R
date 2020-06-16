@@ -4,8 +4,8 @@
 #' Posterior distribution is beta distribution.
 #' Prior used is Beta(alpha + 1, beta + 1)
 #'
-#' @param alpha Parameter for prior distribution representing the number of success
-#' @param beta Parameter for prior distribution representing the number of fails
+#' @param alpha Parameter for prior distribution representing the number of success - 1
+#' @param beta Parameter for prior distribution representing the number of fails - 1
 #'
 #' @param success Number of success cases in your data
 #' @param n_sample Total number of cases in your data
